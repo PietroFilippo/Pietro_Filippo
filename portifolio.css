@@ -1,0 +1,53 @@
+/* define a cor para essa seção */
+#portfolio {
+    background-color: #f9f9f9;
+}
+
+/* garante o tamanho certo para os projetos */
+.projeto {
+    margin-bottom: 45px;
+    max-width: 600px;
+}
+
+
+
+/* adicionados para o tabalho javascript */
+/* aumenta o tamanho da fonte usando o arquivo js */
+.aumentar-fonte {
+    font-size: 24px;
+}
+
+/* diminui o tamanho da fonte usando o arquivo js */
+.diminuir-fonte {
+    font-size: 16px;
+}
+
+/* esilo para o modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* estilo para a imagem di projeto no modal */
+.modal-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* estilo do botão para fechar a imagem no modal */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}

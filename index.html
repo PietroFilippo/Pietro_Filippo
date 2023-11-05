@@ -1,0 +1,98 @@
+<!-- 
+alterações de arquivos feitas: 
+    adição de uma modal e do JavaScript no portfolio.html, criação de classes relacionadas com JavaScript no portifolio.css e a criaçãao do portfolio.js com funções JavaScript
+
+estruturas de decisão:
+    é utilizado um if/else para determinar a saudação de bom dia/tarde/noite com base na hora do dia ao entrar na página do portfolio
+
+estruturas de laço:
+    é utilizado um forEach para iterar sobre os elementos do portfólio e adicionar um evento de clique que expande a imagem dos projetos em um modal
+
+funções criadas:
+    aumentarFonte(), diminuirFonte(), abrirModal(), e fecharModal().
+
+CSS com JavaScript:
+    JavaScript é usado para criar as classes aumentar-fonte e diminuir-fonte, além das classes criadas para o funcionamento e estilização da modal
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- link para as páginas -->
+                <li><a href="index.html">Início</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="relatorio.html">Relatórios</a></li>
+                <li><a href="contato.html">Contato</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h1>Bem-vindo ao meu Portfólio</h1>
+        <p>Bem-vindo ao meu portfólio fotográfico, onde capturo momentos especiais e transformo-os em imagens que contam histórias.</p>
+        <p>Explore as cores, a beleza e a emoção da vida através das minhas lentes.</p>
+    </section>
+    <!-- seção para o atual projeto em destaque e suas informações -->
+    <section id="portfolio">
+        <div class="projeto destaque">
+            <h3>Projeto de Destaque</h3>
+            <img src="imagens/projeto-destaque.jpg" alt="Projeto de Destaque">
+            <p>Este é o meu projeto de destaque atualmente.</p> 
+            <p>Foto tirada em Búðir, Snæfellsbær, Islândia.</p>
+            <p>Dimensões: 796 x 3864 | Proporção 3:2 | Câmera: ILCE-7M2</p>
+            <p>Distância focal: 32.0mm | Abertura: ƒ/11.0 | ISO: 100</p>
+            <p>Tirada em: Mar 20, 2023 | Software: Luminar 4 | Visualizações: 846,4K</p>
+        </div>
+    </section>
+    <!-- seção para destacar as empresas notáveis que já trabalhou junto -->
+    <section id="empresas" class="empresas-coluna">
+        <h2>Empresas Com Quem Já Trabalhei</h2>
+        <div class="grid">
+            <div class="empresa">
+                <img src="imagens/empresa1.jpg" alt="Logo da Empresa 1">
+            </div>
+            <div class="empresa">
+                <img src="imagens/empresa2.png" alt="Logo da Empresa 2">
+            </div>
+            <div class="empresa">
+                <img src="imagens/empresa3.png" alt="Logo da Empresa 3">
+            </div>
+            <div class="empresa">
+                <img src="imagens/empresa4.png" alt="Logo da Empresa 4">
+            </div>
+            <div class="empresa">
+                <img src="imagens/empresa5.png" alt="Logo da Empresa 5">
+            </div>
+        </div>
+    </section>
+    <!-- seção para depoimentos de clientes satisfeitos -->
+    <section id="depoimentos">
+        <h2>Depoimentos de Clientes</h2>
+        <div class="depoimento">
+            <blockquote>
+                "Trabalhar com este fotógrafo foi uma experiência incrível. As fotos capturaram momentos especiais de forma tão autêntica e emocional. Recomendo totalmente!"
+            </blockquote>
+            <p>- Cliente Satisfeito 1</p>
+        </div>
+        <div class="depoimento">
+            <blockquote>
+                "As imagens que recebemos superaram todas as expectativas. O profissionalismo e a criatividade deste fotógrafo são impressionantes. Mal posso esperar para trabalhar novamente com ele."
+            </blockquote>
+            <p>- Cliente Satisfeito 2</p>
+        </div>
+    </section>
+        <footer>
+            <i>&copy; 2023 Direitos Autorais</i>    
+        </footer>
+    </body>
+</html>

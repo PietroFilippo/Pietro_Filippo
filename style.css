@@ -1,0 +1,84 @@
+/* define a fonte padrão para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* estiliza o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* muda a cor de cabeçalho h4 */
+h4 {
+    color: #333;
+}
+
+/* muda o estilo da barra de navegação no cabeçalho */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0; 
+}
+
+/* muda o estilo dos itens da lista de navegação */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* muda os estilos para os links na barra de navegação */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; 
+}
+
+/* muda a cor dos links com o mouse sobre eles */
+nav ul li a:hover {
+    color: #ff6600; 
+}
+
+/* muda o estilo das seções da página */
+section {
+    padding: 40px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+/* garante o tamanho certo das imagens dos projetos */
+.projeto img {
+    height: auto;
+    width: 100%;
+}
+
+/* muda o estilo dos parágrafos */
+p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* estiliza o grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+    justify-content: center;
+}
+
+/* garante o tamanho certo das imagens no grid */
+.grid img {
+    height: auto;
+}
+
+/* estiliza o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

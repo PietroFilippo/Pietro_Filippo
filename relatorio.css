@@ -1,0 +1,35 @@
+/* define a cor para essa seção */
+#relatorio-visualizacoes {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+/* estiliza a tabela de relatório das visualizações */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* define os estilos para os cabeçalhos e as células da tabela */
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* define os estilos para os cabeçalhos da tabela */
+table th {
+    background-color: #333;
+    color: white;
+}
+
+/* alterna as cores de fundo para linhas pares na tabela */
+table tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+/* altera a cor de fundo da linha da tabela com o mouse encima dela */
+table tr:hover {
+    background-color: #ccc;
+}

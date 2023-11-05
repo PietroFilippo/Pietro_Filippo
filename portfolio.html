@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portifolio.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- link para as páginas -->
+                <li><a href="index.html">Início</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="relatorio.html">Relatórios</a></li>
+                <li><a href="contato.html">Contato</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <section id="portfolio">
+        <!-- introdução ao portfólio -->
+        <h2>Parte de Meu Portfólio</h2>
+        <h4>Conheça mais de meu tabalho vendo alguns de meus projetos deste ano.</h4>
+        <p id="saudacao"></p>
+        <button onclick="aumentarFonte()">Aumentar Fonte</button>
+        <button onclick="diminuirFonte()">Diminuir Fonte</button>
+        <br><br>
+        <div class="grid">
+            <!--  cada classe projeto representa um projeto no portfólio com suas informações -->
+            <div class="projeto">
+                <img src="imagens/igreja-projeto.jpeg" alt="Igreja na neve">
+                <h2>Igreja na neve</h2><br>
+                <p>Foto tirada em Paß Gschütt, Salzburg, Áustria.</p>
+                <p>Dimensões: 3648 x 5472 | Proporção 2:3 | Câmera: DSC-RX100</p>
+                <p>Distância focal: 9.0mm | Abertura: ƒ/4.0 | ISO: 100</p>
+                <p>Tirada em: Out 21, 2023 | Software: Adobe Photoshop | Visualizações: 81,5K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/national-geographic2-projeto.png" alt="Girafa">
+                <h2>Girafa National-Geographic</h2><br>
+                <p>Foto tirada em Narok County, Kenya.</p>
+                <p>Dimensões: 3072 x 4608 | Proporção 2:3 | Câmera: NIKON D3100</p>
+                <p>Distância focal: 340.0mm | Abertura: ƒ/5.6 | ISO: 100</p>
+                <p>Tirada em: Sep 9, 2023 | Software: Adobe Photoshop | Visualizações: 106,3K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/nike-projeto.png" alt="Tênis Nike">
+                <h2>Tênis Nike</h2><br>
+                <p>Foto tirada em Altnau, TG, Suiça.</p>
+                <p>Dimensões: 5400 x 3600 | Proporção 3:2 | Câmera: Canon EOS 6D</p>
+                <p>Distância focal: 24.0mm | Abertura: ƒ/2.8 | ISO: 160</p>
+                <p>Tirada em: Mar 3, 2023 | Software: Adobe Photoshop | Visualizações: 503,6K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/redbull-projeto.png" alt="Redbull Show Avião">
+                <h2>Redbull Show Avião</h2><br>
+                <p>Foto tirada em Budapest, Hungria.</p>
+                <p>Dimensões: 3008 x 2000 | Proporção 188:125 | Câmera: NIKON D70</p>
+                <p>Distância focal: 300.0mm | Abertura: ƒ/5.6 | ISO: 100</p>
+                <p>Tirada em: Abr 9, 2023 | Software: Adobe Photoshop | Visualizações: 618,7K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/redbull2-projeto.png" alt="Redbull Show Aviões">
+                <h2>Redbull Show Aviões</h2><br>
+                <p>Foto tirada em Budapest, Hungria.</p>
+                <p>Dimensões: 6016 x 4000 | Proporção 188:125 | Câmera: NIKON D3200</p>
+                <p>Distância focal: 150.0mm | Abertura: ƒ/6.3 | ISO: 100</p>
+                <p>Tirada em: Abr 9, 2023 | Software: Adobe Photoshop | Visualizações: 119,3K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/vogue-projeto.png" alt="Vogue Revistas">
+                <h2>Vogue Revistas</h2><br>
+                <p>Foto tirada em Dobrovelychkivs'kyi district, Kirovohrads'ka oblast, Ucrânia.</p>
+                <p>Dimensões: 5472 x 3648 | Proporção 3:2 | Câmera: Canon EOS 6D</p>
+                <p>Distância focal: 85.0mm | Abertura: ƒ/1.8 | ISO: 320</p>
+                <p>Tirada em: Jun 8, 2023 | Software: Adobe Photoshop | Visualizações: 223,4K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/saint-michael-monte-projeto.png" alt="Monte Saint-Michael">
+                <h2>Monte Saint-Michael</h2><br>
+                <p>Foto tirada em Le Mont-Saint-Michel, Normandie, França.</p>
+                <p>Dimensões: 3456 x 5184 | Proporção 2:3 | Câmera: Canon EOS 700D</p>
+                <p>Distância focal: 50.0mm | Abertura: ƒ/6.3 | ISO: 200</p>
+                <p>Tirada em: Aug 18, 2023 | Software: Adobe Photoshop | Visualizações: 449,3K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/starbucks-projeto.png" alt="Café Starbucks">
+                <h2>Café Starbucks</h2><br>
+                <p>Foto tirada em Nova Iorque, NY, Estados Unidos.</p>
+                <p>Dimensões: 3744 x 5616 | Proporção 2:3 | Câmera: Canon EOS 5D Mark IV</p>
+                <p>Distância focal: 50.0mm | Abertura: ƒ/2.2 | ISO: 320</p>
+                <p>Tirada em: Fev 23, 2023 | Software: Adobe Photoshop | Visualizações: 230,7K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/barn-projeto.jpeg" alt="Celeiro Por do Sol">
+                <h2>Celeiro Por do Sol</h2><br>
+                <p>Foto tirada em Altura, MN, Estados Unidos.</p>
+                <p>Dimensões: 5414 x 3600 | Proporção 2707:1800 | Câmera: NIKON D5600</p>
+                <p>Distância focal: 220.0mm | Abertura: ƒ/5.6 | ISO: 280</p>
+                <p>Tirada em: Jan 27, 2023 | Software: Adobe Photoshop | Visualizações: 94,9K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/national-geographic-projeto.png" alt="Lago e Montanha">
+                <h2>Lago e Montanha National-Geographic</h2><br>
+                <p>Foto tirada em Field, AB, Canadá.</p>
+                <p>Dimensões: 4226 x 2847 | Proporção 2:3 | Câmera: NIKON D5600</p>
+                <p>Distância focal: 14.0mm | Abertura: ƒ/11.0 | ISO: 100</p>
+                <p>Tirada em: Maio 11, 2023 | Software: Adobe Photoshop | Visualizações: 799,1K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/beira-mar-projeto.png" alt="Beira Mar">
+                <h2>à Beira Mar</h2><br>
+                <p>Foto tirada em MA, Brasil.</p>
+                <p>Dimensões: 1997 x 3000 | Proporção 2:3 | Câmera: Canon EOS REBEL</p>
+                <p>Distância focal: 24.0mm | Abertura: ƒ/2.8 | ISO: 1250</p>
+                <p>Tirada em: Jul 20, 2023 | Software: Adobe Photoshop | Visualizações: 370,6K</p>
+            </div>
+            <div class="projeto">
+                <img src="imagens/akihabara-projeto.png" alt="Akibahara Japão">
+                <h2>Akibahara Japão</h2><br>
+                <p>Foto tirada em Chiyoda, Tóquio, Japão.</p>
+                <p>Dimensões: 3072 x 4298 | Proporção 1536:2149 | Câmera: DMC-G6</p>
+                <p>Distância focal: 12.0mm | Abertura: ƒ/2.8 | ISO: 160</p>
+                <p>Tirada em: Sep 13, 2023 | Software: Adobe Photoshop | Visualizações: 183,9K</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <i>&copy; 2023 Direitos Autorais</i>    
+    </footer>
+    <!-- adicionados para o tabalho javascript-->
+    <!-- elemento do modal -->
+    <div id="modal" class="modal">
+        <!-- botão para fechar -->
+        <span class="close" id="close">&times;</span>
+        <!-- imagem no modal -->
+        <img id="modal-image" class="modal-content">
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>

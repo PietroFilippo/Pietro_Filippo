@@ -1,0 +1,75 @@
+/* define a cor para a seção */
+#inicio {
+    background-color: #e6e6e6;
+}
+
+/* estiliza os depoimentos */
+.depoimento {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* estiliza a cor dos depoimentos */
+#depoimentos {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+/* estiliza o título dos depoimentos */
+#depoimentos h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* define o layout de coluna para empresas */
+.empresas-coluna .grid {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* estiliza as citações nos depoimentos */
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* define a cor de fundo para a seção das empresas */
+#empresas {
+    background-color: #e6e6e6;
+    padding: 40px;
+    text-align: center;
+}
+
+/* estiliza o título da seção das empresas */
+#empresas h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* garante o tamanho certo das imagens na seção das empresas */
+.empresa img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+/* estiliza a parte do projeto em destaque */
+.projeto.destaque {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px; 
+    text-align: center; 
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px; 
+}
